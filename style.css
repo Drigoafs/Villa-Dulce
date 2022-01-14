@@ -1,1 +1,84 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.active {
+  text-decoration: underline;
+}
+
+.productos-destacados {
+  height: 100vh;
+}
+
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.card-border:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.img-servicios {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.img-servicios:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  #mainSlider {
+    display: none;
+  }
+  .img-servicios {
+    display: none;
+  }
+  .separator {
+    display: none;
+  }
+}
+
+@media (max-width: 993px) {
+  #logo-sec {
+    display: none;
+  }
+  .img-nosotros {
+    display: none;
+  }
+}
+
+footer {
+  background-image: url(../assets/imgFooter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-primario {
+  background-color: #D1D6FF  !important;
+}
+
+.marca {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 8px;
+}
+
+.icon-group {
+  font-size: 1.3rem;
+}
+
+.icon-group i {
+  color: #919bef;
+}
+/*# sourceMappingURL=style.css.map */
