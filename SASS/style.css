@@ -1,9 +1,26 @@
-.active {
-  text-decoration: underline;
+@media (max-width: 768px) {
+  #main {
+    display: none;
+  }
+  .img-servicios {
+    display: none;
+  }
+  .separator {
+    display: none;
+  }
 }
 
-.productos-destacados {
-  height: 100vh;
+@media (max-width: 993px) {
+  #logo-sec {
+    display: none;
+  }
+  .img-nosotros {
+    display: none;
+  }
+}
+
+.active {
+  text-decoration: underline;
 }
 
 .card-border {
@@ -29,27 +46,6 @@
           transform: scale(1.05);
 }
 
-@media (max-width: 768px) {
-  #mainSlider {
-    display: none;
-  }
-  .img-servicios {
-    display: none;
-  }
-  .separator {
-    display: none;
-  }
-}
-
-@media (max-width: 993px) {
-  #logo-sec {
-    display: none;
-  }
-  .img-nosotros {
-    display: none;
-  }
-}
-
 footer {
   background-image: url(../assets/imgFooter.png);
   background-repeat: no-repeat;
@@ -57,7 +53,7 @@ footer {
 }
 
 .color-primario {
-  background-color: #D1D6FF  !important;
+  background-color: #d1d6ff !important;
 }
 
 .marca {
@@ -80,5 +76,9 @@ footer {
 
 .icon-group i {
   color: #919bef;
+}
+
+#main-container {
+  min-height: 55vh;
 }
 /*# sourceMappingURL=style.css.map */

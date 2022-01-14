@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    #main {
+      display: none;
+    }
+    .img-servicios {
+      display: none;
+    }
+    .separator {
+      display: none;
+    }
+  }
+  @media (max-width: 993px) {
+    #logo-sec {
+      display: none;
+    }
+    .img-nosotros {
+      display: none;
+    }
+  }

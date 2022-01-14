@@ -1,0 +1,54 @@
+@import 'medias';
+
+.active {
+  text-decoration: underline;
+}
+
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.img-servicios {
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+
+footer {
+  background: {
+    image: url(../assets/imgFooter.png);
+    repeat: no-repeat;
+    size: cover;
+  }
+}
+
+.color-primario {
+  background-color: #d1d6ff !important;
+}
+
+.marca {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 8px;
+}
+
+.icon-group {
+  font-size: 1.3rem;
+
+  i {
+    color: #919bef;
+  }
+}
+
+#main-container {
+ min-height: 55vh;
+}
