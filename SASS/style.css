@@ -8,6 +8,9 @@
   .separator {
     display: none;
   }
+  .nav-link {
+    margin-left: 16px;
+  }
 }
 
 @media (max-width: 993px) {
@@ -17,10 +20,23 @@
   .img-nosotros {
     display: none;
   }
+  .nav-link {
+    margin-left: 16px;
+  }
 }
 
 .active {
   text-decoration: underline;
+}
+
+.nav-link {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .card-border {
@@ -80,5 +96,22 @@ footer {
 
 #main-container {
   min-height: 55vh;
+}
+
+.valores {
+  margin-left: 16px;
+}
+
+.footer--col .nav-link {
+  padding: 0px;
+}
+
+.footer--col .nav-item {
+  text-decoration: none;
+}
+
+.footer--col p {
+  margin: 0px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

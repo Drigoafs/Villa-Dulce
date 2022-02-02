@@ -16,6 +16,13 @@ $colores: (
   text-decoration: underline;
 }
 
+.nav-link {
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
 .card-border {
   border: solid 10px white;
   border-radius: 20px;
@@ -42,7 +49,7 @@ footer {
 }
 
 .color-primario {
-  background-color: map-get($colores, $secundario) !important;
+  background-color: map-get($colores, secundario) !important;
 }
 
 .marca {
@@ -54,7 +61,7 @@ footer {
   font-size: 1.3rem;
 
   i {
-    color: map-get($colores, $principal);
+    color: map-get($colores, principal);
   }
 }
 
@@ -63,4 +70,17 @@ footer {
 }
  .valores {
    margin-left: 16px;
+ }
+
+ .footer--col {
+   .nav-link {
+    padding: 0px;
+   }
+   .nav-item {
+     text-decoration: none;
+   }
+   p {
+     margin: 0px;
+     text-align: center;
+   }
  }
